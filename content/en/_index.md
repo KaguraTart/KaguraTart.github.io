@@ -1,8 +1,8 @@
 ---
-title: "Ananke: Un thème pour Hugo"
+title: "KaguraTart Website"
 
-description: "Le dernier thème dont vous aurez besoin. Peut-être"
+description: "This is kaguratart personal website"
 cascade:
   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
-Bienvenu sur mon blog à propos de mon travail du moment. Je travail sur une idée de livre. Vous pouvez lire quelques chapitres plus bas.
+This is kaguratart personal website. Sharing life, enjoying life.
