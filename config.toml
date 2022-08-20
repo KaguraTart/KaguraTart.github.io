@@ -13,15 +13,15 @@ enableRobotsTXT = true
 
 
 [languages]
-  [languages.en]
-    title = "Ananke"
+  [languages.ch]
+    title = "蛋挞"
     weight = 1
-    contentDir = "content/en"
+    contentDir = "content/ch"
     # languageDirection = 'rtl' for Right-To-Left languages
-  [languages.fr]
-    title = "Ananke Fr"
+  [languages.en]
+    title = "KaguraTart"
     weight = 2
-    contentDir = "content/fr"
+    contentDir = "content/en"
 
 [sitemap]
   changefreq = "monthly"
