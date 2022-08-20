@@ -1,11 +1,9 @@
 ---
-title: Contact
+title: "碎碎念"
 featured_image: ''
-omit_header_text: true
-description: We'd love to hear from you
-type: page
+description: "这里是一个唠叨的地方"
+theme_version: '2.8.2'
 menu: main
-
 ---
 
 

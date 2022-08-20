@@ -1,5 +1,5 @@
 ---
-title: "蛋挞妙妙屋123"
+title: "蛋挞妙妙屋"
 
 description: "分享技术 分享生活"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
