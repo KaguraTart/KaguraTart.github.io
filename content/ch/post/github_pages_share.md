@@ -180,4 +180,4 @@ jobs:
 
 ## 0xxx 测试视频
 
-[![Less Than Jake — Scott Farcas Takes It On The Chin](https://i1.hdslb.com/bfs/archive/1b70311967ef4bbb7866b65083beb66e63cbf11d.jpg@640w_400h_1c_!web-space-index-myvideo.webp)](https://www.bilibili.com/video/BV1dY411x7VR?spm_id_from=333.999.0.0&vd_source=1a1821ee25f550c161fa84ea16f7b0ef)
+[![Less Than Jake — Scott Farcas Takes It On The Chin](/images/miku/miku4.jpg)](https://www.bilibili.com/video/BV1dY411x7VR?spm_id_from=333.999.0.0&vd_source=1a1821ee25f550c161fa84ea16f7b0ef)
