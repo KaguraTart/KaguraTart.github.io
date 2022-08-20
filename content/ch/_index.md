@@ -8,4 +8,4 @@ cascade:
 ---
 这里是蛋挞。目前国内交通研究生在读，喜欢美食和VOCALOID。
 
-！[sdf](../images/esmeralda.jpg)
+![sdf](../images/esmeralda.jpg)
