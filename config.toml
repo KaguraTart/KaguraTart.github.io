@@ -16,7 +16,7 @@ enableRobotsTXT = true
   [languages.zh]
     title = "蛋挞"
     weight = 1
-    contentDir = "content/zh"
+    contentDir = "content/ch"
     # languageDirection = 'rtl' for Right-To-Left languages
   [languages.en]
     title = "KaguraTart"
