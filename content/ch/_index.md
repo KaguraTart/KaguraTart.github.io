@@ -1,10 +1,10 @@
 ---
-title: "Ananke: a Hugo Theme"
+title: "蛋挞妙妙屋"
 
-description: "The last theme you'll ever need. Maybe."
+description: "分享技术 分享生活"
 # 1. To ensure Netlify triggers a build on our exampleSite instance, we need to change a file in the exampleSite directory.
 theme_version: '2.8.2'
 cascade:
   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
-Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.
+这里是蛋挞。目前国内交通研究生在读，喜欢美食和VOCALOID。
