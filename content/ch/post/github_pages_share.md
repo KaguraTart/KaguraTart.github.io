@@ -1,8 +1,8 @@
 ---
 date: 2022-08-20T2:00:10+08:00
 description: "本文使用hugo的ananke主题在Github pages上使用workflow action自动生成和部署博客"
-featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
-tags: ["scene"]
+featured_image: "/images/miku/miku1.jpg"
+tags: ["hugo","github","博客"]
 title: "使用hugo在Github上自动部署博客"
 ---
 
@@ -55,7 +55,7 @@ title = "about"
 
 ## 0x04 安装主题
 
-到！[主题](https://themes.gohugo.io/) 挑选一个心仪的皮肤，比如你觉得 Hyde 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来：
+到![主题](https://themes.gohugo.io/) 挑选一个心仪的皮肤，比如你觉得 Hyde 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来：
 ```shell
 # 创建 themes 目录
 $ cd quickstart
@@ -94,7 +94,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 ### 仓库创建
 在GitHub上创建一个新的repo，名字 username.github.io 
 
-![github1](../images/github_pages_share/github1.png)
+![github1](/images/github_pages_share/github1.png)
 
 ### 本地clone
 
@@ -175,7 +175,7 @@ jobs:
         uses: actions/deploy-pages@v1
 ```
 则可以完成自动化部署（如下图）。
-![自动化部署](../images/github_pages_share/git2.png)
+![自动化部署](/images/github_pages_share/git2.png)
 
 
 ## 0xxx 测试视频
