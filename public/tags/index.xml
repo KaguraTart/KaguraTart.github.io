@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ananke</title>
+    <title>Tags on 蛋挞</title>
     <link>https://kaguratart.github.io/tags/</link>
-    <description>Recent content in Tags on Ananke</description>
+    <description>Recent content in Tags on 蛋挞</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2017 11:14:48 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 20 Aug 2022 02:00:10 +0800</lastBuildDate>
     
 	<atom:link href="https://kaguratart.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>scene</title>
       <link>https://kaguratart.github.io/tags/scene/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <pubDate>Sat, 20 Aug 2022 02:00:10 +0800</pubDate>
       
       <guid>https://kaguratart.github.io/tags/scene/</guid>
       <description></description>

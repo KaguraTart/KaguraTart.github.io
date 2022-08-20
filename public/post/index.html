@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Articles | Ananke</title>
+    <title>文章 | 蛋挞</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The last theme you&#39;ll ever need. Maybe.">
+    <meta name="description" content="这里是用来分享博客的地方">
     <meta name="generator" content="Hugo 0.68.3" />
     
     
@@ -29,20 +29,20 @@
 
     
     
-      <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Ananke" />
-      <link href="/post/index.xml" rel="feed" type="application/rss+xml" title="Ananke" />
+      <link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="蛋挞" />
+      <link href="/post/index.xml" rel="feed" type="application/rss+xml" title="蛋挞" />
       
     
     
-    <meta property="og:title" content="Articles" />
-<meta property="og:description" content="The last theme you&#39;ll ever need. Maybe." />
+    <meta property="og:title" content="文章" />
+<meta property="og:description" content="这里是用来分享博客的地方" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kaguratart.github.io/post/" />
-<meta property="og:updated_time" content="2017-03-02T12:00:00-05:00" /><meta property="og:site_name" content="Ananke" />
-<meta itemprop="name" content="Articles">
-<meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Articles"/>
-<meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
+<meta property="og:updated_time" content="2017-03-02T12:00:00-05:00" /><meta property="og:site_name" content="蛋挞" />
+<meta itemprop="name" content="文章">
+<meta itemprop="description" content="这里是用来分享博客的地方"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="文章"/>
+<meta name="twitter:description" content="这里是用来分享博客的地方"/>
 
 	
   </head>
@@ -58,7 +58,7 @@
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
       
-        Ananke
+        蛋挞
       
     </a>
     <div class="flex-l items-center">
@@ -67,7 +67,7 @@
 <ul class="pl0 mr3">
     
     <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white no-underline white-90" href="/fr/post/">fr</a>
+        <a class="hover-white no-underline white-90" href="/en/post/">en</a>
     </li>
     
 </ul>
@@ -77,20 +77,20 @@
         <ul class="pl0 mr3">
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/about/" title="About page">
-              About
+            <a class="hover-white no-underline white-90" href="/about/" title="关于我 页">
+              关于我
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/post/" title="Articles page">
-              Articles
+            <a class="hover-white no-underline white-90" href="/post/" title="文章 页">
+              文章
             </a>
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
-              Contact
+            <a class="hover-white no-underline white-90" href="/life/" title="碎碎念 页">
+              碎碎念
             </a>
           </li>
           
@@ -117,8 +117,12 @@
 
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Articles
+          文章
         </h1>
+        
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
+            这里是用来分享博客的地方
+          </h2>
         
       </div>
     </div>
@@ -130,10 +134,54 @@
 
   <article class="pa3 pa4-ns nested-copy-line-height">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-      <p>Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the &ldquo;pagination&rdquo; setting in the config file.</p>
+      <p>这里是用来分享博客的地方。</p>
 
     </section>
     <aside class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        August 20, 2022
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/github_pages_share/" class="link black dim">
+        使用hugo在Github上自动部署博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      本文概要：  hugo安装和部署 GitHub的repository创建 GitHub的action创建  0x00 Linux(ubuntu)下hugo的下载和安装 使用apt进行二进制安装
+$ sudo apt-get hugo 0x01 使用hugo生成站点 使用Hugo快速生成站点
+$ hugo new site &lt;your project filename&gt; 举例子：比如希望生成到 /myweb/tart 路径文件夹：
+$ hugo new site /myweb/tart 0x02 创建文章 方法1 使用hugo命令创建：
+$ hugo new about.md about.md自动生成到了 content/about.md，打开 about.md看下：
+--- date = &quot;2015-10-25T08:36:54-07:00&quot; draft = true title = &quot;about&quot; --- 正文内容 0x04 安装主题 到！主题 挑选一个心仪的皮肤，比如你觉得 Hyde 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来：
+# 创建 themes 目录 $ cd quickstart $ git init $ git submodule add https://github.
+    </div>
+  </div>
+
+        </div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            <div class="mb3 pa4 mid-gray overflow-hidden">
+    
+      <div class="f6">
+        August 19, 2022
+      </div>
+    
+    <h1 class="f3 near-black">
+      <a href="/post/intro/" class="link black dim">
+        自我介绍
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      啊呜啊呜
+    </div>
+  </div>
+
+        </div>
       
         <div class="relative w-100 w-30-l mb4 bg-white">
             <div class="mb3 pa4 mid-gray overflow-hidden">
@@ -149,44 +197,6 @@
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.
-    </div>
-  </div>
-
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        April 13, 2017
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="/post/chapter-5/" class="link black dim">
-        Chapter V: Quasimodo
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.
-    </div>
-  </div>
-
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-            <div class="mb3 pa4 mid-gray overflow-hidden">
-    
-      <div class="f6">
-        April 12, 2017
-      </div>
-    
-    <h1 class="f3 near-black">
-      <a href="/post/chapter-4/" class="link black dim">
-        Chapter IV: Master Jacques Coppenole
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.
     </div>
   </div>
 
@@ -229,12 +239,23 @@
     <li class="page-item"><a class="page-link" href="/post/page/2/">2</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/3/">3</a></li>
+    
+    
     <li class="page-item">
     <a href="/post/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/post/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/post/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
@@ -246,7 +267,7 @@
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://kaguratart.github.io" >
-    &copy;  Ananke 2022 
+    &copy;  蛋挞 2022 
   </a>
     <div>
 <div class="ananke-socials">
