@@ -1,5 +1,5 @@
 ---
-date: 2022-08-20T2:00:10+08:00
+date: 2022-08-20T17:00:10+08:00
 description: "本文使用hugo的ananke主题在Github pages上使用workflow action自动生成和部署博客"
 featured_image: "/images/miku/miku1.jpg"
 tags: ["hugo","github","博客"]
@@ -53,7 +53,7 @@ title = "about"
 正文内容
 ```
 
-## 0x04 安装主题
+## 0x03 安装主题
 
 到![主题](https://themes.gohugo.io/) 挑选一个心仪的皮肤，比如你觉得 Hyde 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来：
 ```shell
@@ -62,7 +62,7 @@ $ cd quickstart
 $ git init
 $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
-## 0x05 运行hugo
+## 0x04 运行hugo
 
 使用命令行运行hugo并部署
 
@@ -89,7 +89,7 @@ Running in Fast Render Mode. For full rebuilds on change: hugo server --disableF
 Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 ```
 
-## 0x06 Github仓库创建和本地clone
+## 0x05 Github仓库创建和本地clone
 
 ### 仓库创建
 在GitHub上创建一个新的repo，名字 username.github.io 
@@ -178,6 +178,3 @@ jobs:
 ![自动化部署](/images/github_pages_share/git2.png)
 
 
-## 0xxx 测试视频
-
-[![Less Than Jake — Scott Farcas Takes It On The Chin](/images/miku/miku4.jpg)](https://www.bilibili.com/video/BV1dY411x7VR?spm_id_from=333.999.0.0&vd_source=1a1821ee25f550c161fa84ea16f7b0ef)
