@@ -3,7 +3,7 @@ date: 2022-09-22T2:00:10+08:00
 description: "本文使用hugo的ananke主题在Github pages上使用workflow action自动生成和部署博客"
 featured_image: "/images/miku/miku1.jpg"
 tags: ["selenium","爬虫","博客"]
-title: "学习出体会"
+title: "学习selenium初体会"
 ---
 
 ## 本文概要：
