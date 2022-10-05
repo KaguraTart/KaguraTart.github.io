@@ -6,4 +6,5 @@ $ hugo new site &amp;lt;your project filename&amp;gt; 举例子：比如希望�
 $ hugo new site /myweb/tart 0x02 创建文章 方法1 使用hugo命令创建：
 $ hugo new about.md about.md 自动生成到了 content/about.md ，打开 about.md 看下：
 --- date = &amp;#34;2015-10-25T08:36:54-07:00&amp;#34; draft = true title = &amp;#34;about&amp;#34; --- 正文内容 0x03 安装主题 到 挑选一个心仪的皮肤，比如你觉得 Hyde 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来：
-# 创建 themes 目录 $ cd quickstart $ git init $ git submodule add https://github.</description></item><item><title>自我介绍</title><link>https://kaguratart.github.io/post/intro/</link><pubDate>Fri, 19 Aug 2022 15:00:10 +0800</pubDate><guid>https://kaguratart.github.io/post/intro/</guid><description>是大猫猫 啊呜啊呜</description></item></channel></rss>
+# 创建 themes 目录 $ cd quickstart $ git init $ git submodule add https://github.</description></item><item><title>自我介绍</title><link>https://kaguratart.github.io/post/intro/</link><pubDate>Fri, 19 Aug 2022 15:00:10 +0800</pubDate><guid>https://kaguratart.github.io/post/intro/</guid><description>是大猫猫 啊呜啊呜
+是小猫猫 小猫咪喵喵喵</description></item></channel></rss>
