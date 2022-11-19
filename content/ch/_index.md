@@ -8,4 +8,4 @@ cascade:
 ---
 这里是蛋挞，一个很普通的跨性别女性。目前在国内某高校交通研究生在读，喜欢美食和VOCALOID，做交通仿真研究，偶尔码代码。
 
-![sdf](../images/esmeralda.jpg)
+![sdf]()
